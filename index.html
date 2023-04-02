@@ -1,39 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
+
 <body>
-
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="images/logo.png" width="125px">
+    <header>
+        <nav>
+            <a class="logo" href="">Https</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="">Produtos</a></li>
-                    <li><a href="">Atendimento</a></li>
-                    <li><a href="">Minha conta</a></li>
-                    <li><a href="">Meu carrinho</a></li>
-                </ul>
-            </nav>
-       </div>
-       <div class="row">
-        <div class="col-2">
-            <h1>What is Lorem Ipsum?</h1>  <!--Utilizar o <br> caso quiser quebrar linha do titulo ("Aqui voce encontra<br>Os melhores preços")--> 
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-            <a href="" class="btn">Nossos produtos &#8594;</a>
-        </div>
-        <div class="col-2">
-            <img src="images/1-2.png" alt="">
-        </div>
-       </div>
-    </div>
+            <ul class="nav-list">
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">Inicio</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="cart-outline"></ion-icon></span>
+                        <span class="text">Carrinho</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <span class="text">Conta</span>
+                    </a>
+                </li>
+                <!--
+                <li><a href=""><ion-icon name="home-outline"></ion-icon>Inicio</a></li>
+                <li><a href=""><ion-icon name="person-outline"></ion-icon>Perfil</a></li>
+                <li><a href=""><ion-icon name="cart-outline"></ion-icon>Carrinho</a></li>
+            -->
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
